@@ -306,8 +306,9 @@ canvas {
     justify-content: space-around;
     font-size: 2.5rem;
     color: white;
-    
-    margin-top: -60px;
+    background-color: #031f5a96;
+    border-radius: 15px;
+    margin-top: -80px;
     
 }
 
@@ -321,6 +322,10 @@ canvas {
     flex-wrap: wrap;
     width: 90%;
     height: auto;
+    background-image: url(img/codigo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
 }
 @media (max-width: 1345px){
     .all-projects{
