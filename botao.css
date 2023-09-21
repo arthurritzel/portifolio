@@ -1,0 +1,53 @@
+
+  
+  .botoes a{
+    display: block;
+    width: 80%;
+    height: 20%;
+    line-height: 40px;
+    font-size: 2.2vw;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all .35s;
+    
+  }
+
+ 
+  
+  .botoes a span{
+    position: relative;
+    z-index: 2;
+    
+  }
+  .botoes a span img{
+    padding-right: 100px;
+    padding-left: 50px;
+  }
+  
+  .botoes a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #111111;
+    border-radius: 20px;
+    transition: all .35s;
+  }
+  
+  .botoes a:hover{
+    color: #fff;
+    
+  }
+  
+  .botoes a:hover:after{
+    width: 100%;
+  }
