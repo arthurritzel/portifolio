@@ -311,23 +311,7 @@ canvas {
     
 }
 
-.p p {
-    transform: skewX(-15deg);
-    padding: 10px;
-    background-color: #031f5a96;
-    box-shadow: 6px 6px 0 black;
-    width: fit-content;
-}
 
-.col1, .col2{
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
-    
-}
 
 .all-projects{
     display: flex;
@@ -336,7 +320,7 @@ canvas {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 90%;
-    height: 70vh;
+    height: auto;
 }
 @media (max-width: 1345px){
     .all-projects{
