@@ -1,0 +1,68 @@
+.outer_snake{
+    min-width: 40%;
+    max-width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: green solid 1px; */
+}
+
+
+canvas {
+    background-color: #111;
+    max-width: 100%;
+    min-width: 400px;
+    
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 3.5rem;
+    display: block;
+    margin-top: -10px;
+    color: white;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.final-score {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0252ff;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}

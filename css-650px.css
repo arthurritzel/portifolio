@@ -1,0 +1,12 @@
+@media (max-width: 650px){
+    .botoes a{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .botoes a span img{
+        padding-right: 0px;
+        padding-left: 0px;
+       
+      }
+}

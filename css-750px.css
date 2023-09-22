@@ -1,0 +1,18 @@
+@media (max-width: 750px){
+    #sobre div{
+        width: 90%;
+       
+    }
+    #sobre img{
+        width: 90%;
+        border-radius: 20px 20px 0px 0px ;
+    }
+    .desc{
+        
+        font-size: 15px;
+    }
+    .social div a p {
+        display: none;
+    }
+
+}

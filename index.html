@@ -5,18 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="botao.css">
-    <link rel="stylesheet" href="btn-project.css">
+    <link rel="stylesheet" href="card-project.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="snake.css">
+    <link rel="stylesheet" href="css-1000px.css">
+    <link rel="stylesheet" href="css-750px.css">
+    <link rel="stylesheet" href="css-650px.css">
     <title>Arthur Ritzel</title>
 </head>
 <body>
+  <div class="all_drop">
+    <div class="dropdown">
+      <button id="031f5a96" class="dropbtn"></button>
+      <div class="dropdown-content">
+        <a id="5a030396" onclick="colorChange(this.id)" style="background-color: #5a030396;"></a>
+        <a id="06bbc196" onclick="colorChange(this.id)" style="background-color: #06bbc196;"></a>
+        <a id="24700496" onclick="colorChange(this.id)" style="background-color: #24700496;"></a>
+      </div>
+    </div>
+    <p>Main color</p>
+  </div>
     <div id="home">
         <div style="display: flex;">
             <h1 class="title">Arthur</h1><h1 class="ritzel" style="color:#0252ff"> Ritzel</h1>
-        </div>
+          </div>
+          <h3 class="title2">Futuro Engenheiro de Software</h3>
             <a id="seta_home" href="#first_page">
-            <img src="img/sinal-de-seta-para-baixo-para-navegar.png" alt="">
-        </a>
+              <img class="img_seta" src="img/031f5a96.png" alt="">
+            </a>
     </div>
     <div id="first_page">
         <div class="botoes">
@@ -43,11 +59,7 @@
         <div>
             <p class="title-sobre">Sobre</p>
             <p class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio placeat dicta tempora provident animi, ipsam explicabo similique minus? Tempora ut, sed saepe in dicta maiores ipsam laudantium. Dolore, a.
-                Quia voluptatum distinctio dignissimos perspiciatis, ab libero quae doloribus eum minima maiores in nulla, amet deserunt. Deserunt, cupiditate veniam odio quisquam recusandae praesentium quas, optio molestias assumenda quia molestiae saepe.
-                Fuga corrupti eos suscipit placeat dolorem neque commodi dignissimos aliquid odio esse nisi pariatur maxime illum voluptates minima natus quidem vel qui ea aliquam dolorum eligendi, quisquam fugiat? Inventore, in.
-                Maiores illo tempora odit nemo aperiam assumenda. Molestiae, odit ratione quidem veritatis totam exercitationem culpa recusandae minima iste? Dignissimos repudiandae vel accusamus ipsa quam. Corporis cupiditate laborum explicabo fuga amet.
-                Itaque minus, dolore dolor deleniti dignissimos quaerat quos laudantium officia quod expedita repellendus iusto? Fugiat dolore accusantium porro quia temporibus voluptas, esse perspiciatis facere tempora nisi sit sint voluptates sapiente.
+              Meu nome é Arthur Burkhard Ritzel, tenho 18 anos e sou um entusiasta apaixonado por tecnologia. Atualmente, estou matriculado no curso de Engenharia de Software, onde estou desenvolvendo habilidades sólidas em programação e algoritmos. Além disso, minha experiência abrange impressão e modelagem 3D, bem como projetos de automação residencial. Minha paixão pela programação me impulsiona a criar soluções inovadoras, e estou ansioso para contribuir para um mundo mais inteligente e conectado por meio da tecnologia. A programação é uma das minhas paixões centrais. Tenho experiência em diversas linguagens de programação, desde Python e JavaScript até C# e Java. Desenvolver aplicativos e soluções de software é algo que me empolga profundamente, e estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades para enfrentar desafios cada vez mais complexos. Acredito que a programação é uma ferramenta poderosa para transformar ideias em realidade e estou determinado a explorar todo o seu potencial na busca por soluções inovadoras e eficazes.
             </p>
         </div>
     </div>
@@ -171,11 +183,45 @@
         </div>
     </div>
 
+    <p class="social_title" >Social</p>
     <div id="cntt">
+      <div class="social">
+        <div class="reverse">
+          <a class="inst" href="https://www.instagram.com/arthur_ritzel/" target="_blank">
+            <img src="img/instagram.png"> 
+            <p>Instagram</p>
+          </a> 
+        </div>
 
+        <div> 
+          <a class="git" href="https://github.com/arthurritzel" target="_blank">
+            <img src="img/github.png"> 
+            <p>Github</p>
+          </a>
+        </div>
+
+        <div class="reverse">
+          <a class="link" href="https://www.linkedin.com/in/arthur-burkhard-ritzel-4716a6261/" target="_blank">
+            <img src="img/linkedin.png"> 
+            <p>Linkedin</p>
+          </a>
+        </div>
+
+        <div>
+          <a class="mail" href="mailto:ritzelarthur@gmail.com" target="_blank">
+            <img src="img/gmail.png"> 
+            <p>Email</p>
+          </a>
+        </div>
+
+        <div class="reverse"><a href=""></a></div>
+      </div>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="script/snake.js"></script>
     <script src="script/escrever.js"></script>
+    <script src="script/color.js"></script>
 </body>
 </html>

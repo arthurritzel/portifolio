@@ -12,6 +12,7 @@ function typeWrite(elemento){
 }
 const ritzel = document.querySelector('.ritzel');
 const titulo = document.querySelector('.title');
+const titulo2 = document.querySelector('.title2');
     const textoritzel = ritzel.innerHTML.split('');
     ritzel.innerHTML = ' ';
 typeWrite(titulo);
@@ -20,10 +21,11 @@ setTimeout(()=>{
     titulo.classList.remove("title")
     ritzel.classList.add("title")
     textoritzel.forEach(function(letra, i){   
-      
         setTimeout(function(){
             ritzel.innerHTML += letra;
         }, 75 * i)
     
       });
 }, 700)
+
+typeWrite(titulo2)
