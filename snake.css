@@ -1,7 +1,6 @@
 .outer_snake{
-    min-width: 40%;
-    max-width: 50%;
-    height: 80vh;
+    width: 35%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
