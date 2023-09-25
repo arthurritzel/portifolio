@@ -182,10 +182,6 @@ body{
 }
 
 
-
-
-
-
 #projects{
     height: auto;
     width: 100%;
@@ -230,7 +226,7 @@ body{
     
     flex-direction: column;
     align-items: center;
-   
+   margin-bottom: 200px;
 }
 
 .social{
@@ -317,4 +313,26 @@ body{
 }
 .mail:not(:hover){
     transition: 1s;
+}
+.curriculo{
+    background-color: #031f5a96;
+}
+.curriculo:not(:hover){
+    transition: 1s;
+}
+.a031f5a96:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #031f5a96;
+}
+.a5a030396:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #5a030396;
+}
+.a06bbc196:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #06bbc196;
+}
+.a24700496:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #24700496;
 }

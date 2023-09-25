@@ -10,7 +10,8 @@ var imgSeta = document.querySelector(".img_seta")
 var imgCode = document.querySelector(".all-projects")
 var btnSnake = document.querySelector(".btn-play")
 var social = document.querySelector(".social_title")
-
+var curri = document.querySelector(".curriculo")
+curri.className = `curriculo a031f5a96`
 function colorChange(color){
     var select = document.getElementById(color)
     
@@ -39,4 +40,7 @@ function colorChange(color){
     btnSnake.style.color = "#"+color
 
     social.style.backgroundColor = "#"+color
+
+    curri.style.backgroundColor = "#"+color
+    curri.className = `curriculo a${color}`
 }
