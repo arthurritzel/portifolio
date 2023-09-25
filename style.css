@@ -11,16 +11,18 @@ body{
 }
 .all_drop{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: fit-content;
 }
 .all_drop p{
     color: white;
-    margin-top: 30px;
+    /* margin-top: 35px; */
     margin-left: 25px;
 }
 .dropbtn {
-    margin-top: 20px;
+    
     margin-left: 20px;
     background-color: #031f5a96;
     color: white;
@@ -40,8 +42,6 @@ body{
   .dropdown-content {
     display: none;
     position: absolute;
-    
-    box-shadow: 0px 8px 16px 0px #00000033;
     z-index: 1;
   }
   
@@ -278,16 +278,43 @@ body{
 }
 
 .inst{
-
     background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.inst:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #833ab4;
+}
+.inst:not(:hover){
+    transition: 1s;
 }
 .git{
     border: 1px solid white;
     background-color: black;
 }
+.git:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #ffffff;
+}
+.git:not(:hover){
+    transition: 1s;
+}
 .link{
     background-color: #0e76a8;
 }
+.link:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #0e76a8;
+}
+.link:not(:hover){
+    transition: 1s;
+}
 .mail{
     background-color: #c71610;
+}
+.mail:hover{
+    transition: 500ms;
+    box-shadow: 5px 5px 15px  #c71610;
+}
+.mail:not(:hover){
+    transition: 1s;
 }
