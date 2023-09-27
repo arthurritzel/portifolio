@@ -57,3 +57,13 @@
     color: #ffffff;
     transform: rotateY( 180deg );
   }
+
+  .seta{
+    width: 90%; 
+    display: flex; 
+    justify-content: right; 
+    margin-top: 50px;
+  }
+  .card_cara{
+    font-size: 28px;
+  }
