@@ -21,7 +21,7 @@
     </div>
 </div> */
 
-const URL = "https://ykvqsjm9.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type+%3D%3D+%27card%27%5D%7B%0A++titulo%2C%0A++caracteristicas%2C%0A++%27imagem%27%3A+imagem.asset-%3E+url%2C%0A++repositorio%0A%7D";
+const URL = "https://ykvqsjm9.api.sanity.io/v2021-10-21/data/query/production?query=*%5B_type+%3D%3D+%27card%27%5D%7B%0A++titulo%2C%0A++caracteristicas%2C%0A++%27imagem%27%3A+imagem.asset-%3E+url%2C%0A++botao%0A%7D";
 
 async function card(){
     var dados = await fetch(URL, {
@@ -52,9 +52,9 @@ async function card(){
 
         var lista = document.createElement("div")
         lista.className = "list"
-        element.caracteristicas.forEach(element => {
+        element.caracteristicas.forEach(element2 => {
             var li = document.createElement("li")
-            li.innerText = element
+            li.innerText = element2
             lista.appendChild(li);
         });
 
@@ -77,16 +77,17 @@ async function card(){
 
         var p_back = document.createElement("p")
         p_back.innerHTML = "Acesse o <br> código"
-
-        var a_back = document.createElement("a")
-        a_back.setAttribute("href", element.repositorio)
-        a_back.className = "btn btn-primary"
-        a_back.setAttribute("target", "_blank")
-        a_back.setAttribute("role", "button")
-        a_back.innerText = "Github"
-
         back.appendChild(p_back)
-        back.appendChild(a_back)
+        element.botao.forEach(element3 => {
+            var a_back = document.createElement("a")
+            a_back.setAttribute("href", element3.Link)
+            a_back.className = "btn btn-primary"
+            a_back.setAttribute("target", "_blank")
+            a_back.setAttribute("role", "button")
+            a_back.innerText = element3.titulo
+            back.appendChild(a_back)
+        });
+        
 
         content.appendChild(front)
         content.appendChild(back)
