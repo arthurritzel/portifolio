@@ -1,18 +1,18 @@
-var btn = document.querySelector(".dropbtn")
-var first = document.querySelector("#first_page")
-var divsobre = document.querySelector("#sobre div")
-var ritzell = document.querySelector(".ritzel")
-var projetos = document.querySelector(".p")
-var card = document.querySelectorAll(".front")
-var cardBack = document.querySelectorAll(".back")
-var seta = document.querySelector("#seta_home")
-var imgSeta = document.querySelector(".img_seta")
-var imgCode = document.querySelector(".all-projects")
-var btnSnake = document.querySelector(".btn-play")
-var social = document.querySelector(".social_title")
-var curri = document.querySelector(".curriculo")
-curri.className = `curriculo a031f5a96`
 function colorChange(color){
+    var btn = document.querySelector(".dropbtn")
+    var first = document.querySelector("#first_page")
+    var divsobre = document.querySelector("#sobre div")
+    var ritzell = document.querySelector(".ritzel")
+    var projetos = document.querySelector(".p")
+    var card = document.querySelectorAll(".front")
+    var cardBack = document.querySelectorAll(".back")
+    var seta = document.querySelector("#seta_home")
+    var imgSeta = document.querySelector(".img_seta")
+    var imgCode = document.querySelector(".all-projects")
+    var btnSnake = document.querySelector(".btn-play")
+    var social = document.querySelector(".social_title")
+    var curri = document.querySelector(".curriculo")
+    curri.className = `curriculo a031f5a96`
     var select = document.getElementById(color)
     
     select.style.backgroundColor = "#"+btn.id
@@ -24,6 +24,7 @@ function colorChange(color){
     divsobre.style.backgroundColor = "#"+color
     ritzell.style.color = "#"+color
     projetos.style.backgroundColor = "#"+color
+
     card.forEach(element => {
         element.style.background = `linear-gradient(#000000, ${"#"+color})`
     });

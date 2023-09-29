@@ -1,7 +1,7 @@
 .card {
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 300px;
+    width: 340px;
     height: 500px;
     background: #11111100;
     perspective: 500px;
@@ -56,4 +56,14 @@
     background: linear-gradient(#03446A, #000000);;
     color: #ffffff;
     transform: rotateY( 180deg );
+  }
+
+  .seta{
+    width: 90%; 
+    display: flex; 
+    justify-content: right; 
+    margin-top: 50px;
+  }
+  .card_cara{
+    font-size: 28px;
   }
