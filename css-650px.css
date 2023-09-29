@@ -1,4 +1,13 @@
 @media (max-width: 650px){
+    #home h1{
+        
+        font-size: 15vw;
+    }
+    .title2{
+        color: white;
+        font-size: 5vw;
+        margin-bottom: 250px;
+    }
     .botoes a{
         flex-direction: column;
         align-items: center;
