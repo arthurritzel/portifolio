@@ -64,11 +64,11 @@ const drawFood = () => {
 }
 
 const drawSnake = () => {
-    ctx.fillStyle = "#ddd"
+    ctx.fillStyle = "rgb(60, 255, 0)"
 
     snake.forEach((position, index) => {
         if (index == snake.length - 1) {
-            ctx.fillStyle = "white"
+            ctx.fillStyle = "rgb(60, 255, 0);"
         }
 
         ctx.fillRect(position.x, position.y, size, size)
