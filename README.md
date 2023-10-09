@@ -16,6 +16,7 @@ Meu site de portfólio é uma plataforma onde compartilho meu trabalho e projeto
 - CSS
 - JavaScript
 - Sanity (backend)
+- [https://arthurritzel.github.io/portifolio/](https://github.com/arthurritzel/back-portfolio)
 
 ## Funcionalidades
 
