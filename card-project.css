@@ -42,6 +42,10 @@
     border-radius: 15px;
     backface-visibility: hidden;
   }
+
+.front img{
+    width: 64px;
+}
   .list{
     margin-top: 30px;
     display: flex;
